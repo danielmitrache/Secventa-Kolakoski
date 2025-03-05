@@ -1,10 +1,11 @@
-# Description: Kolakoski sequence generator using iterative method in Python
-# Sequence: 1 2 2 1 2 2 1 1 2 1 1
-#                   |
+import time
+
+t0 = time.time()
+
 seq = [1, 2, 2]
 pointer = 1
 next_value = 2
-while len(seq) < 99:
+while len(seq) < 1000000000:
     # Calculam care este urmatoarea valoare de adaugat
     next_value = 3 - next_value
 
@@ -18,5 +19,5 @@ while len(seq) < 99:
     # Mutam pointerul la urmatorul element
     pointer = pointer + 1
 
-# Afisam primele 100 de elemente din secventa
-print(seq)
+t1 = time.time()
+print("Time: ", t1 - t0)
