@@ -1,11 +1,7 @@
-import time
-
-t0 = time.time()
-
 seq = [1, 2, 2]
-pointer = 1
+pointer = 2
 next_value = 2
-while len(seq) < 1000000000:
+while len(seq) < 100:
     # Calculam care este urmatoarea valoare de adaugat
     next_value = 3 - next_value
 
@@ -19,5 +15,4 @@ while len(seq) < 1000000000:
     # Mutam pointerul la urmatorul element
     pointer = pointer + 1
 
-t1 = time.time()
-print("Time: ", t1 - t0)
+print(seq)

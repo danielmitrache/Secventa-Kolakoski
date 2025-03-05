@@ -16,7 +16,7 @@ int main() {
     seq[0] = 1;
     seq[1] = 2;
     seq[2] = 2;
-    int pointer = 1, i = 3, elem = 2;
+    int pointer = 2, i = 3, elem = 2;
     // i va indica catre ultimul element din secventa + 1
     while (i < NRELEM) {
         // Calculam ce element adaugam

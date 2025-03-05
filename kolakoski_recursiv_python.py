@@ -25,7 +25,7 @@ seq = [1, 2, 2]
 # Lungimea secvenței
 target_length = 1000000000
 
-sequence = generate_kolakoski(seq, 1, 2, target_length)
+sequence = generate_kolakoski(seq, 2, 2, target_length)
 
 t1 = time.time()
 print("Time: ", t1 - t0)
