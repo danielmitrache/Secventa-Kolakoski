@@ -23,7 +23,7 @@ def generate_kolakoski(seq, pointer, next_value, target_length):
 seq = [1, 2, 2]
 
 # Lungimea secvenței
-target_length = 1000000000
+target_length = 10**6
 
 sequence = generate_kolakoski(seq, 2, 2, target_length)
 

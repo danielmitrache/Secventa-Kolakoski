@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#define NRELEM 100000000
+#define NRELEM 1000000
 
 int main() {
     clock_t start, end;
@@ -34,7 +34,7 @@ int main() {
         // Mutam pointerul
         pointer = pointer + 1;
     }
-    
+
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     printf("Timp de executie: %f\n", cpu_time_used);
