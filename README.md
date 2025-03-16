@@ -1,3 +1,3 @@
 # Secventa-Kolakoski
 # Citeste Kolakoski_sequence.pdf (pentru ca link-urile sa functioneze trebuie sa descarcati documentul)
-## Overleaf view-only link [here](https://www.overleaf.com/read/hsntknbxgbsn#c29734)
+## Overleaf view-only link [aici](https://www.overleaf.com/read/smhhqwwbmvmp#f6b7fe)
